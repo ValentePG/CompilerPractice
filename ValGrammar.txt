@@ -1,0 +1,12 @@
+OP: + | - | * | / | < | > | != | =
+
+NUM: (0...9)+
+
+ID: (a...z)(a...z|A...Z|0...9)*
+
+PONT: ;
+
+observações
+a..z -> intervalo da letra 'a' até a letra 'z'
+*    -> 0 ou mais repetições
++    -> 1 ou mais repetições
